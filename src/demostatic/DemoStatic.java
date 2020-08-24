@@ -16,7 +16,11 @@ public class DemoStatic {
         System.out.println("main method");
     }
     //block 2
+
     static {
         System.out.println("block 2");
+    }
+    static {
+        System.out.println("block 3");
     }
 }
